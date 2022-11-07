@@ -46,4 +46,29 @@ public class AppTest
 		Calculator calculator = new Calculator();
 		calculator.getQuotient(2, 0);
 	}
+
+
+	@Test(timeout = 1000)
+	public void whenGetTanThenReturnTanOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.0, calculator.getTan(0), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetSinThenReturnSinOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(1.0, calculator.getSin(90), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetCosThenReturnCosOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.0, calculator.getCos(90), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetCtgThenReturnCtgOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.0, calculator.getCtan(90), 0.0000000000000001);
+	}
 }

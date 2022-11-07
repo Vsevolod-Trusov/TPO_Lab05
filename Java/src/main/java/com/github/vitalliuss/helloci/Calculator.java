@@ -21,4 +21,18 @@ public class Calculator {
     public int getRemainder(int term, int anotherTerm) {
         return term % anotherTerm;
     }
+
+    public double getTan(double term) {
+        return Math.tan(term);
+    }
+
+    public double getSin(double term) {
+        return Math.sin(term);
+    }
+    public double getCos(double term) {
+        return Math.cos(term);
+    }
+    public double getCtan(double term) {
+        return (double)1/Math.tan(term);
+    }
 }
