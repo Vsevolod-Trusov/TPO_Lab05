@@ -26,12 +26,12 @@ public class AppTest {
 	public void testShouldBeSKipped() {
 		assertTrue(true);
 	}
-	
+
 	@Test
 	public void testAnotherMethod() {
 		App.doNothing();
 	}
-	
+
 	@Test
 	public void testAnotherClass() {
 		EmptyClass.emptyMethod();
