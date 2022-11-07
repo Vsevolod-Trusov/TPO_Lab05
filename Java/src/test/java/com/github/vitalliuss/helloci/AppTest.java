@@ -32,7 +32,7 @@ public class AppTest
 	@Test
 	public void whenGetQuotientThenReturnQuotientOTwoParameters() {
 		Calculator calculator = new Calculator();
-		assertEquals(0.6666666666666666, calculator.getQuotient(2, 3));
+		assertEquals(0.6666666666666666, calculator.getQuotient(2, 3), 0.0000000000000001);
 	}
 
 	@Test

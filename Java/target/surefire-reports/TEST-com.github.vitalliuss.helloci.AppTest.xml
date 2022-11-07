@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.318" tests="5" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.19" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\seva2\AppData\Local\Temp\surefire16874147507360417134\surefirebooter4698273678372690835.jar C:\Users\seva2\AppData\Local\Temp\surefire16874147507360417134 2022-11-07T15-24-04_068-jvmRun1 surefire3894019584262603168tmp surefire_018318852604578134979tmp"/>
+    <property name="sun.java.command" value="C:\Users\seva2\AppData\Local\Temp\surefire11779611878362382973\surefirebooter4133659106022387126.jar C:\Users\seva2\AppData\Local\Temp\surefire11779611878362382973 2022-11-07T15-34-00_010-jvmRun1 surefire7514069417623139002tmp surefire_011822605469562676410tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Univer\3курс\1сем\ТПОиНПО\TPO_Lab05\Java\target\test-classes;D:\Univer\3курс\1сем\ТПОиНПО\TPO_Lab05\Java\target\classes;C:\Users\seva2\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\seva2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\seva2\AppData\Local\Temp\surefire16874147507360417134\surefirebooter4698273678372690835.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\seva2\AppData\Local\Temp\surefire11779611878362382973\surefirebooter4133659106022387126.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -60,11 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.012"/>
-  <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0.077"/>
-  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.002"/>
-  <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
-    <skipped message="Not implemented yet"/>
-  </testcase>
+  <testcase name="whenGetProductThenReturnProductOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0.01"/>
+  <testcase name="whenGetDifferenceThenReturnDifferenceOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetRemainderThenReturnRemainderOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetQuotientThenReturnQuotientOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="whenGetAmountThenReturnAmountOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
 </testsuite>
