@@ -10,8 +10,4 @@ public class App
     {
         System.out.println( "Hello CI!" );
     }
-    
-    public static void doNothing() {
-    	// do nothing
-    }
 }

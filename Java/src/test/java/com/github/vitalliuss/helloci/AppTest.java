@@ -9,31 +9,35 @@ import org.junit.Test;
  * Unit test for simple App.
  * @author vitali_shulha
  */
-public class AppTest {
-
+public class AppTest
+{
 	@Test
-	public void testShouldBePassed() {
-		assertTrue(true);
+	public void whenGetAmountThenReturnAmountOTwoParameters() {
+		Calculator calculator = new Calculator();
+		assertEquals(5, calculator.getAmount(2, 3));
 	}
 
 	@Test
-	public void testShouldBeFailed() {
-		assertTrue(true);
+	public void whenGetDifferenceThenReturnDifferenceOTwoParameters() {
+		Calculator calculator = new Calculator();
+		assertEquals(-1, calculator.getDifference(2, 3));
 	}
 
-	@Ignore("Not implemented yet")
 	@Test
-	public void testShouldBeSKipped() {
-		assertTrue(true);
+	public void whenGetProductThenReturnProductOTwoParameters() {
+		Calculator calculator = new Calculator();
+		assertEquals(6, calculator.getProduct(2, 3));
 	}
-	
+
 	@Test
-	public void testAnotherMethod() {
-		App.doNothing();
+	public void whenGetQuotientThenReturnQuotientOTwoParameters() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.6666666666666666, calculator.getQuotient(2, 3));
 	}
-	
+
 	@Test
-	public void testAnotherClass() {
-		EmptyClass.emptyMethod();
+	public void whenGetRemainderThenReturnRemainderOTwoParameters() {
+		Calculator calculator = new Calculator();
+		assertEquals(2, calculator.getRemainder(2, 3));
 	}
 }
