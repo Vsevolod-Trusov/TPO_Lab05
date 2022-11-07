@@ -40,4 +40,10 @@ public class AppTest
 		Calculator calculator = new Calculator();
 		assertEquals(2, calculator.getRemainder(2, 3));
 	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void whenGetQuotientThenThrowException() {
+		Calculator calculator = new Calculator();
+		calculator.getQuotient(2, 0);
+	}
 }

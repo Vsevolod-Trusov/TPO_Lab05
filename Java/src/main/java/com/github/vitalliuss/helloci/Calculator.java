@@ -1,23 +1,24 @@
 package com.github.vitalliuss.helloci;
 
 public class Calculator {
-    public int getAmount(int term, int anotherTerm){
+    public int getAmount(int term, int anotherTerm) {
         return term + anotherTerm;
     }
 
-    public int getDifference(int term, int anotherTerm){
+    public int getDifference(int term, int anotherTerm) {
         return term - anotherTerm;
     }
 
-    public int getProduct(int term, int anotherTerm){
+    public int getProduct(int term, int anotherTerm) {
         return term * anotherTerm;
     }
 
-    public double getQuotient(int term, int anotherTerm){
-        return (double)term / (double)anotherTerm;
+    public double getQuotient(int term, int anotherTerm) {
+       if(anotherTerm == 0) throw new IllegalArgumentException("The second term cannot be zero");
+        return (double) term / (double) anotherTerm;
     }
 
-    public int getRemainder(int term, int anotherTerm){
+    public int getRemainder(int term, int anotherTerm) {
         return term % anotherTerm;
     }
 }
