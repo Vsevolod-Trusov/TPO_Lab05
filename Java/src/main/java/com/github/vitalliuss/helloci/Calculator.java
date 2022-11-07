@@ -35,4 +35,28 @@ public class Calculator {
     public double getCtan(double term) {
         return (double)1/Math.tan(term);
     }
+
+    public double getLog(double term) {
+        return Math.log(term);
+    }
+
+    public double getLn(double term) {
+        return Math.log10(term);
+    }
+
+    public double getArcsin(double term) {
+        return Math.asin(term);
+    }
+
+    public double getArccos(double term) {
+        return Math.acos(term);
+    }
+
+    public double getArctan(double term) {
+        return Math.atan(term);
+    }
+
+    public double getArccotan(double term) {
+        return (double)1/Math.atan(term);
+    }
 }

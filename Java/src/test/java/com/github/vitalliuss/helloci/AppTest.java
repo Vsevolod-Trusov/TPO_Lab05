@@ -71,4 +71,40 @@ public class AppTest
 		Calculator calculator = new Calculator();
 		assertEquals(0.0, calculator.getCtan(90), 0.0000000000000001);
 	}
+
+	@Test
+	public void whenGetArcsinThenReturnArcsinOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(1.5707963267948966, calculator.getArcsin(1), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetArccosThenReturnArccosOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.0, calculator.getArccos(1), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetArctanThenReturnArctanOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.7853981633974483, calculator.getArctan(1), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetArccotanThenReturnArccotanOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.7853981633974483, calculator.getArccotan(1), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetLogThenReturnLogOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.0, calculator.getLog(1), 0.0000000000000001);
+	}
+
+	@Test
+	public void whenGetLnThenReturnLnOfParameter() {
+		Calculator calculator = new Calculator();
+		assertEquals(0.0, calculator.getLn(1), 0.0000000000000001);
+	}
 }
