@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: com.github.vitalliuss.helloci.AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.19 s - in com.github.vitalliuss.helloci.AppTest
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.467 s <<< FAILURE! - in com.github.vitalliuss.helloci.AppTest
+whenGetCosThenReturnCosOfParameter(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<-0.4480736161291701>
+	at com.github.vitalliuss.helloci.AppTest.whenGetCosThenReturnCosOfParameter(AppTest.java:66)
+
+whenGetCtgThenReturnCtgOfParameter(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<-0.5012027833801532>
+	at com.github.vitalliuss.helloci.AppTest.whenGetCtgThenReturnCtgOfParameter(AppTest.java:72)
+
+whenGetSinThenReturnSinOfParameter(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1.0> but was:<0.8939966636005579>
+	at com.github.vitalliuss.helloci.AppTest.whenGetSinThenReturnSinOfParameter(AppTest.java:60)
+
+whenGetArccotanThenReturnArccotanOfParameter(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0.7853981633974483> but was:<1.2732395447351628>
+	at com.github.vitalliuss.helloci.AppTest.whenGetArccotanThenReturnArccotanOfParameter(AppTest.java:96)
+

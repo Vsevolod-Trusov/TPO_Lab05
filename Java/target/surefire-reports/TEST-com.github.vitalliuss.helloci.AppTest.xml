@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.19" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.467" tests="16" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\seva2\AppData\Local\Temp\surefire11779611878362382973\surefirebooter4133659106022387126.jar C:\Users\seva2\AppData\Local\Temp\surefire11779611878362382973 2022-11-07T15-34-00_010-jvmRun1 surefire7514069417623139002tmp surefire_011822605469562676410tmp"/>
+    <property name="sun.java.command" value="C:\Users\seva2\AppData\Local\Temp\surefire16132238932845036137\surefirebooter2364014355677051140.jar C:\Users\seva2\AppData\Local\Temp\surefire16132238932845036137 2022-11-07T17-15-24_589-jvmRun1 surefire10779289818681100489tmp surefire_01271111789099751056tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Univer\3курс\1сем\ТПОиНПО\TPO_Lab05\Java\target\test-classes;D:\Univer\3курс\1сем\ТПОиНПО\TPO_Lab05\Java\target\classes;C:\Users\seva2\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\seva2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\seva2\AppData\Local\Temp\surefire11779611878362382973\surefirebooter4133659106022387126.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\seva2\AppData\Local\Temp\surefire16132238932845036137\surefirebooter2364014355677051140.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -60,9 +60,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="whenGetProductThenReturnProductOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0.01"/>
+  <testcase name="whenGetLnThenReturnLnOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.018"/>
+  <testcase name="whenGetProductThenReturnProductOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetQuotientThenThrowException" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetTanThenReturnTanOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.007"/>
+  <testcase name="whenGetArcsinThenReturnArcsinOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.167"/>
+  <testcase name="whenGetCosThenReturnCosOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.017">
+    <failure message="expected:&lt;0.0&gt; but was:&lt;-0.4480736161291701&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0.0> but was:<-0.4480736161291701>
+	at com.github.vitalliuss.helloci.AppTest.whenGetCosThenReturnCosOfParameter(AppTest.java:66)
+]]></failure>
+  </testcase>
   <testcase name="whenGetDifferenceThenReturnDifferenceOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
   <testcase name="whenGetRemainderThenReturnRemainderOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="whenGetQuotientThenReturnQuotientOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
-  <testcase name="whenGetAmountThenReturnAmountOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="whenGetArctanThenReturnArctanOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="whenGetCtgThenReturnCtgOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.002">
+    <failure message="expected:&lt;0.0&gt; but was:&lt;-0.5012027833801532&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0.0> but was:<-0.5012027833801532>
+	at com.github.vitalliuss.helloci.AppTest.whenGetCtgThenReturnCtgOfParameter(AppTest.java:72)
+]]></failure>
+  </testcase>
+  <testcase name="whenGetQuotientThenReturnQuotientOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetArccosThenReturnArccosOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetSinThenReturnSinOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.003">
+    <failure message="expected:&lt;1.0&gt; but was:&lt;0.8939966636005579&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1.0> but was:<0.8939966636005579>
+	at com.github.vitalliuss.helloci.AppTest.whenGetSinThenReturnSinOfParameter(AppTest.java:60)
+]]></failure>
+  </testcase>
+  <testcase name="whenGetLogThenReturnLogOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.006"/>
+  <testcase name="whenGetAmountThenReturnAmountOTwoParameters" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="whenGetArccotanThenReturnArccotanOfParameter" classname="com.github.vitalliuss.helloci.AppTest" time="0.007">
+    <failure message="expected:&lt;0.7853981633974483&gt; but was:&lt;1.2732395447351628&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0.7853981633974483> but was:<1.2732395447351628>
+	at com.github.vitalliuss.helloci.AppTest.whenGetArccotanThenReturnArccotanOfParameter(AppTest.java:96)
+]]></failure>
+  </testcase>
 </testsuite>
