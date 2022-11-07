@@ -9,8 +9,8 @@ import org.junit.Test;
  * Unit test for simple App.
  * @author vitali_shulha
  */
-public class AppTest {
-
+public class AppTest
+{
 	@Test
 	public void testShouldBePassed() {
 		assertTrue(true);
